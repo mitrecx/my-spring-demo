@@ -1,0 +1,20 @@
+target/**
+# ignore .DS_Store
+.DS_Store
+
+# intellij
+.idea/
+
+logs/
+
+# no project file
+.project
+
+*.iml
+
+out/
+.settings/
+bin/
+.classpath
+
+dependency-reduced-pom.xml
