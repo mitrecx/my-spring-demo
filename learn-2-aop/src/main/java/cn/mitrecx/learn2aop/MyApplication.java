@@ -9,11 +9,11 @@ public class MyApplication {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(AopConfig.class);
 
-        TestService methodService = context.getBean(TestService.class);
+        TestService testService = context.getBean(TestService.class);
 
-        methodService.method1();
+        testService.method1();
         System.out.println("---------");
-        methodService.method2();
+        testService.method2();
 
         context.close();
     }
