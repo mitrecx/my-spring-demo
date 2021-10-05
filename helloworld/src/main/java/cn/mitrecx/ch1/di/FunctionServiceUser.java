@@ -14,5 +14,4 @@ public class FunctionServiceUser {
     public String sayHello(String name) {
         return functionService.sayHello(name);
     }
-
 }

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 // @ComponentScan 自动扫描包下 所有使用 @Service,
 // @Component, @Repository, @Controller 的类,
-// 并注册为 Bean.
+// 并将它们注册为 Bean.
 @ComponentScan("cn.mitrecx.ch1.di")
 public class DiConfig {
 }
