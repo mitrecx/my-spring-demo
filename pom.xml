@@ -11,6 +11,7 @@
     <modules>
         <module>helloworld</module>
         <module>learn-2-aop</module>
+        <module>learn-3-common-config</module>
     </modules>
 
     <properties>
