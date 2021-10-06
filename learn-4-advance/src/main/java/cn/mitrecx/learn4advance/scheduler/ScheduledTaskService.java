@@ -14,7 +14,7 @@ public class ScheduledTaskService {
     public void reportCurrentTime() {
         System.out.println("每隔5秒执行一次 " + df.format(new Date()));
         try {
-            Thread.sleep(6000);
+            Thread.sleep(6000); // 每隔 11 秒执行一次
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -24,7 +24,7 @@ public class ScheduledTaskService {
 //    public void reportCurrentTime2() {
 //        System.out.println("每隔5秒执行一次===== " + df.format(new Date()));
 //        try {
-//            Thread.sleep(6000);
+//            Thread.sleep(6000); // 每隔 6 秒执行一次
 //        } catch (InterruptedException e) {
 //            e.printStackTrace();
 //        }
@@ -34,5 +34,4 @@ public class ScheduledTaskService {
     public void fixTimeExecution() {
         System.out.println("在指定的时间 " + df.format(new Date()) + " 执行");
     }
-
 }
