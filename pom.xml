@@ -12,6 +12,7 @@
         <module>helloworld</module>
         <module>learn-2-aop</module>
         <module>learn-3-common-config</module>
+        <module>learn-4-advance</module>
     </modules>
 
     <properties>
@@ -31,6 +32,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${spring-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.3</version>
         </dependency>
     </dependencies>
 
